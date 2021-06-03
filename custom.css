@@ -1,0 +1,136 @@
+body{
+    overflow-x: hidden;
+    direction: rtl;
+    background: linear-gradient(to right, #403b4a, #e7e9bb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+    text-align: right;
+    font-family: 'Reem Kufi', sans-serif;
+}
+#logoBox{
+    width: 30%;
+    height: 100%;
+    
+}
+#Copyright{
+    text-align: center;
+    font-size: 30px;
+    color: blue;
+    background-color: aliceblue;
+}
+
+.carousel-inner img{
+    max-height: 700px;
+    object-fit: cover;
+}
+.carousel-inner a{
+    font-size: 25px;
+}
+.carousel-inner h1{
+    text-shadow: 1px 1px #000;
+}
+.carousel-inner .carousel-caption{
+    bottom: rgba(200,200,200,0.3);
+    border-radius: 7px;
+   
+
+}
+.navbar{
+    background-color: #232930ee !important;
+}
+.navbar-nav a{
+    font-size: 23px !important;
+    color: white;
+    margin: 5px !important;
+   
+}
+.navbar-nav a :hover,li :hover{
+    background-color: #000 !important;
+}
+.navbar-brand {
+    font-size: 30px !important;
+    margin: 5px;
+}
+
+.jumbotron a,p{
+    font-size: 25px ;
+}
+.jumbotron{
+   border-radius: 0;
+    margin-top: 20px;
+    
+}
+.cardt{
+    margin-top: 10px;
+    border: 4px solid white!important;
+}
+.card img{
+  border: 4px solid black !important;
+  height: 120px;
+  width: 290px;
+  margin: 5px;
+}
+.well{
+    padding: 10px;
+   font-size: 30px;
+}
+.dropdown-menu a{
+    color:white;
+    background-color: black;
+}
+.well h4{
+    font-size: 25px;
+    text-shadow: 5px 3px blueviolet;
+}
+.col-md-8 h1{
+    font-size: 40px !important;
+   text-shadow: 3px 2px rgb(8, 204, 122);
+}
+.cardt h5{
+    font-size: 30px;
+    text-shadow: 3px 2px rgb(8, 204, 122);
+    color: blue;
+}
+.cardt a{
+    font-size: 25px;
+}
+.row a{
+    font-size: 23px !important;
+}
+.card-group img{
+    border-radius: 50%;
+}
+
+
+
+.affix {
+    top: 0;
+    width: 100%;
+    z-index: 9999 !important;
+  }
+
+  .affix + .container-fluid {
+    padding-top: 70px;
+  }
+  .myicom{
+      width: 50px;
+      height: 50px;
+      border: 3px solid white;
+      border-radius: 25px;
+  }
+  .myiconfoter{
+      width: 50px;
+      height: 50px;
+      border: 3px solid white;
+      border-radius: 25px;
+    }
+
+.btnext{
+    font-size: 25px;
+}
+.card-title img{
+  width: 80px;
+  border-radius: 50%
+}
+
+
